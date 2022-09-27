@@ -177,7 +177,7 @@
 // person.greet()
 
 
-// Math
+// Mathオブジェクト
 // 円周率
 // alert(Math.PI);
 // // 絶対値
@@ -194,4 +194,22 @@
 // alert(Math.random());
 
 // サイコロ
-alert(Math.floor(Math.random() * 6) + 1);
+// alert(Math.floor(Math.random() * 6) + 1);
+
+
+// Dateオブジェクト
+// const now = new Date();
+// alert(now);
+
+// ↓月だけ+1されるので注意
+// const theDay = new Date(2030, 3, 1, 5, 20, 0);
+// alert(theDay);
+// alert(theDay.getFullYear());
+// alert(theDay.getMonth());
+// alert(theDay.getDate());
+
+const today = new Date().toLocaleDateString('ja-JP', {
+  dateStyle: 'long'
+});
+
+alert(today);
