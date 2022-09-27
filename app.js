@@ -208,8 +208,8 @@
 // alert(theDay.getMonth());
 // alert(theDay.getDate());
 
-const today = new Date().toLocaleDateString('ja-JP', {
-  dateStyle: 'long'
-});
+// const today = new Date().toLocaleDateString('ja-JP', {
+//   dateStyle: 'long'
+// });
 
-alert(today);
+// alert(today);
