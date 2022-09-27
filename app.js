@@ -1,3 +1,5 @@
+/* global i */
+
 // for ( let i = 1; i < 10; i++) {
 //   alert('hello');
 // }
@@ -18,8 +20,15 @@
 // }
 
 
-const fruits = ['りんご', 'みかん', 'バナナ'];
+// const fruits = ['りんご', 'みかん', 'バナナ'];
 
-for ( const fruit of fruits ) {
-  alert(fruit);
+// for ( const fruit of fruits ) {
+//   alert(fruit);
+// }
+
+for ( i = 0; i < 10; i++ ) {
+  if ( i == 3 ) {
+    break;
+  }
+  alert( `${i}回目の処理` )
 }
