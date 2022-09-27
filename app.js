@@ -119,8 +119,31 @@
 
 // 関数式
 // 無名関数
-const sayHello = function() {
-  alert('こんにちは');
+// const sayHello = function() {
+//   alert('こんにちは');
+// }
+
+// sayHello();
+
+
+// オブジェクトの書き方
+// const book = { title: '吾輩は猫である', author: '夏目漱石', pages: 620 }
+
+// console.log(book);
+// console.log(typeof book);
+
+// alert(book.title);
+// alert(book['author'])
+// alert(book['pages'])
+
+// プロパティの追加と
+const person = {
+  name: 'Alice',
 }
 
-sayHello();
+console.log(person)
+
+person.name = 'Bob';
+person['age'] = 25;
+
+console.log(person);
