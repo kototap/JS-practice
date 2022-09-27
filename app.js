@@ -99,9 +99,18 @@
 
 // デフォルト引数
 // 実引数なしで呼び出した時に引数の右辺の値、デフォルト値が呼び出される
-function hello(name = 'ゲスト') {
-  alert(`こんにちは、${name}さん`);
+// function hello(name = 'ゲスト') {
+//   alert(`こんにちは、${name}さん`);
+// }
+
+// hello('Tom')
+// hello()
+
+
+// チェックテスト
+function call(name,title = 'さん') {
+  alert(`${name}${title}`);
 }
 
-hello('Tom')
-hello()
+call('May', '様')
+call('Smith')
