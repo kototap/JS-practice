@@ -166,9 +166,12 @@
 const person = {
   name: 'Alice',
   greet: function(){
-    alert('HELLO');
+    alert(`こんにちは、私は${this.name}です`);
   }
 }
 
 person.greet();
-alert(person.name);
+// alert(person.name);
+
+person.name = 'Bob'
+person.greet()
