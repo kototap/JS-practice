@@ -163,15 +163,35 @@
 
 
 // メソッド
-const person = {
-  name: 'Alice',
-  greet: function(){
-    alert(`こんにちは、私は${this.name}です`);
-  }
-}
+// const person = {
+//   name: 'Alice',
+//   greet: function(){
+//     alert(`こんにちは、私は${this.name}です`);
+//   }
+// }
 
-person.greet();
-// alert(person.name);
+// person.greet();
+// // alert(person.name);
 
-person.name = 'Bob'
-person.greet()
+// person.name = 'Bob'
+// person.greet()
+
+
+// Math
+// 円周率
+// alert(Math.PI);
+// // 絶対値
+// alert(Math.abs(-10));
+// // 四捨五入
+// alert(Math.round(1.4));
+// alert(Math.round(1.5));
+// // 小数点以下切り捨て
+// alert(Math.floor(10.3));
+// // 小数点以下切り上げ
+// alert(Math.ceil(10.3));
+// // 0~1の間でランダム生成
+// alert(Math.random());
+// alert(Math.random());
+
+// サイコロ
+alert(Math.floor(Math.random() * 6) + 1);
