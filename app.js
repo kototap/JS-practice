@@ -67,15 +67,41 @@
 
 
 // 引数と戻り値がある時の関数
-function double(number) {
-  // const result = number * 2;
-  // return result;
-  
-  // return number * 2; こっちだけでもOK
+// function double(number) {
+//   // const result = number * 2;
+//   // return result;
+
+//   // return number * 2; こっちだけでもOK
+// }
+
+// const a = double(10);
+// alert(a);
+
+// const b = double(8);
+// alert(b);
+
+
+
+// 引数の応用
+
+// 複数の引数
+// function sum(a, b){
+//   const result = a + b;
+//   return result;
+// }
+
+// const x = sum(3, 5);
+// alert(x);
+
+// const y = sum(10, 20);
+// alert(y);
+
+
+// デフォルト引数
+// 実引数なしで呼び出した時に引数の右辺の値、デフォルト値が呼び出される
+function hello(name = 'ゲスト') {
+  alert(`こんにちは、${name}さん`);
 }
 
-const a = double(10);
-alert(a);
-
-const b = double(8);
-alert(b);
+hello('Tom')
+hello()
