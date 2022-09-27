@@ -151,12 +151,24 @@
 
 
 // チェックテスト
-const bicycle = {
-  color: 'red',
-  inch: 25
+// const bicycle = {
+//   color: 'red',
+//   inch: 25
+// }
+
+// alert(bicycle.color);
+
+// bicycle.inch = 16;
+// alert(bicycle.inch);
+
+
+// メソッド
+const person = {
+  name: 'Alice',
+  greet: function(){
+    alert('HELLO');
+  }
 }
 
-alert(bicycle.color);
-
-bicycle.inch = 16;
-alert(bicycle.inch);
+person.greet();
+alert(person.name);
