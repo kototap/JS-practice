@@ -136,7 +136,7 @@
 // alert(book['author'])
 // alert(book['pages'])
 
-// プロパティの追加と
+// プロパティの追加と変更
 const person = {
   name: 'Alice',
 }
@@ -147,3 +147,4 @@ person.name = 'Bob';
 person['age'] = 25;
 
 console.log(person);
+
