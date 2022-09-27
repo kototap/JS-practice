@@ -108,9 +108,19 @@
 
 
 // チェックテスト
-function call(name,title = 'さん') {
-  alert(`${name}${title}`);
+// function call(name,title = 'さん') {
+//   alert(`${name}${title}`);
+// }
+
+// call('May', '様')
+// call('Smith')
+
+
+
+// 関数式
+// 無名関数
+const sayHello = function() {
+  alert('こんにちは');
 }
 
-call('May', '様')
-call('Smith')
+sayHello();
