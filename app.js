@@ -151,12 +151,65 @@
 
 
 // チェックテスト
-const bicycle = {
-  color: 'red',
-  inch: 25
-}
+// const bicycle = {
+//   color: 'red',
+//   inch: 25
+// }
 
-alert(bicycle.color);
+// alert(bicycle.color);
 
-bicycle.inch = 16;
-alert(bicycle.inch);
+// bicycle.inch = 16;
+// alert(bicycle.inch);
+
+
+// メソッド
+// const person = {
+//   name: 'Alice',
+//   greet: function(){
+//     alert(`こんにちは、私は${this.name}です`);
+//   }
+// }
+
+// person.greet();
+// // alert(person.name);
+
+// person.name = 'Bob'
+// person.greet()
+
+
+// Mathオブジェクト
+// 円周率
+// alert(Math.PI);
+// // 絶対値
+// alert(Math.abs(-10));
+// // 四捨五入
+// alert(Math.round(1.4));
+// alert(Math.round(1.5));
+// // 小数点以下切り捨て
+// alert(Math.floor(10.3));
+// // 小数点以下切り上げ
+// alert(Math.ceil(10.3));
+// // 0~1の間でランダム生成
+// alert(Math.random());
+// alert(Math.random());
+
+// サイコロ
+// alert(Math.floor(Math.random() * 6) + 1);
+
+
+// Dateオブジェクト
+// const now = new Date();
+// alert(now);
+
+// ↓月だけ+1されるので注意
+// const theDay = new Date(2030, 3, 1, 5, 20, 0);
+// alert(theDay);
+// alert(theDay.getFullYear());
+// alert(theDay.getMonth());
+// alert(theDay.getDate());
+
+// const today = new Date().toLocaleDateString('ja-JP', {
+//   dateStyle: 'long'
+// });
+
+// alert(today);
