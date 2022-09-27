@@ -136,15 +136,27 @@
 // alert(book['author'])
 // alert(book['pages'])
 
-// プロパティの追加と変更
-const person = {
-  name: 'Alice',
+
+//  プロパティの追加と変更
+// const person = {
+//   name: 'Alice',
+// }
+
+// console.log(person)
+
+// person.name = 'Bob';
+// person['age'] = 25;
+
+// console.log(person);
+
+
+// チェックテスト
+const bicycle = {
+  color: 'red',
+  inch: 25
 }
 
-console.log(person)
+alert(bicycle.color);
 
-person.name = 'Bob';
-person['age'] = 25;
-
-console.log(person);
-
+bicycle.inch = 16;
+alert(bicycle.inch);
