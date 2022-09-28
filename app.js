@@ -213,3 +213,14 @@
 // });
 
 // alert(today);
+
+
+// windowオブジェクト
+// alert('windowを省略しても表示可能')
+// confirm('本当に削除してもよろしいですか？')
+const result = confirm('本当に削除してもいいですか？')
+if (result) {
+  alert('削除しました。');
+} else {
+  alert('キャンセルしました。');
+}
