@@ -213,3 +213,29 @@
 // });
 
 // alert(today);
+
+
+
+// windowオブジェクト
+
+// 確認ダイアログ
+// alert('windowを省略しても表示可能')
+// confirm('本当に削除してもよろしいですか？')
+// const result = confirm('本当に削除してもいいですか？')
+// if (result) {
+//   alert('削除しました。');
+// } else {
+//   alert('キャンセルしました。');
+// }
+
+
+// 指定した数秒後に実行
+function delayTask(){
+  alert('1秒ごとに実行する');
+}
+
+// const timerId = setTimeout(delayTask, 5000);
+// clearTimeout(timerId);
+
+　const timerId = setInterval(delayTask, 1000);
+　clearInterval(timerId)
