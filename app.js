@@ -230,12 +230,16 @@
 
 
 // 指定した数秒後に実行
-function delayTask(){
-  alert('1秒ごとに実行する');
-}
+// function delayTask(){
+//   alert('1秒ごとに実行する');
+// }
 
-// const timerId = setTimeout(delayTask, 5000);
-// clearTimeout(timerId);
+// // const timerId = setTimeout(delayTask, 5000);
+// // clearTimeout(timerId);
 
-　const timerId = setInterval(delayTask, 1000);
-　clearInterval(timerId)
+// 　const timerId = setInterval(delayTask, 1000);
+// 　clearInterval(timerId)
+
+
+// ウインドウを開く
+open('https://example.com', 'window name', 'width=400, height=250');
