@@ -11,3 +11,17 @@ for (let radio of radios) {
     console.log(`${value}がチェックされました。`);
   });
 }
+
+const checkboxes = document.querySelectorAll('.checkbox');
+for (let checkbox of checkboxes) {
+  checkbox.addEventListener('input', function(event) {
+    const value = event.currentTarget.value;
+    console.log(`${value}がチェックされました。`);
+  });
+}
+
+const select = document.querySelector('.select');
+select.addEventListener('input', function(event) {
+  const value = event.currentTarget.value;
+  console.log(`${value}が選択されました`)
+})
