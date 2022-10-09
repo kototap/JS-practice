@@ -241,6 +241,6 @@
 // 　clearInterval(timerId)
 
 
-ウインドウを開く
-open('https://example.com', 'window name', 'width=400, height=250');
+// ウインドウを開く
+// open('https://example.com', 'window name', 'width=400, height=250');
 
